@@ -1,0 +1,150 @@
+{% extends "website/base.html" %}
+{% load i18n static %}
+{% block title %}{% trans "The Method" %}{% endblock %}
+{% block meta_desc %}{% trans "Learn about the FUMIHEALING: deep lymph care method — balance, depth, and the Japanese approach to healing." %}{% endblock %}
+
+{% block content %}
+
+<div class="page-hero">
+  <span class="eyebrow">FUMIHEALING: Method</span>
+  <h1>{% trans "The FUMIHEALING: Method" %}</h1>
+  <p>{% trans "Not force. Not just drainage. True balance." %}</p>
+</div>
+
+<!-- ── PHILOSOPHY ── -->
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <p class="section__eyebrow">{% trans "Philosophy" %}</p>
+        <h2 class="section__title">{% trans "What is Japanese-style lymph care?" %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead">
+          {% trans "Japanese style is not about using force, nor is it simply about continuously draining fluid. For us, the most important concept is 'balance'." %}
+        </p>
+        <p class="section__lead" style="margin-top:.75rem;">
+          {% trans "In Japan, since ancient times, correcting posture, regulating breathing, and balancing internal systems have been considered essential. The essence of the Japanese approach is balancing the internal state, not the external." %}
+        </p>
+        <div class="blockquote">
+          <p>{% trans "We do not drain. We balance — and the body flows naturally on its own." %}</p>
+        </div>
+      </div>
+      <div class="col-img">
+        <img src="{% static 'website/img/massage_2.png' %}" alt="FUMIHEALING: philosophy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHY DEEP ── -->
+<section class="section section--ivory">
+  <div class="container">
+    <div class="two-col two-col--reverse">
+      <div>
+        <p class="section__eyebrow">{% trans "The Difference" %}</p>
+        <h2 class="section__title">{% trans "Why deep matters" %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead">{% trans "Most lymph care methods target only the surface layer. This creates temporary relief — but the problem returns quickly." %}</p>
+        <p class="section__lead" style="margin-top:.75rem;">{% trans "The lymph blockage causes are deep: muscle tension, postural imbalance, shallow breathing, internal organ fatigue, nervous system dysregulation." %}</p>
+        <p class="section__lead" style="margin-top:.75rem;">{% trans "By working the deep layer, muscles release, breathing changes, and flow naturally improves. The change becomes lasting, not temporary." %}</p>
+      </div>
+      <div class="col-img">
+        <img src="{% static 'website/img/massage_3.png' %}" alt="Deep lymph care">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── COMPARISON ── -->
+<section class="section">
+  <div class="container" style="max-width:820px; margin:0 auto;">
+    <p class="section__eyebrow">{% trans "Comparison" %}</p>
+    <h2 class="section__title">{% trans "FUMIHEALING: vs other approaches" %}</h2>
+    <div class="section__rule"></div>
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>{% trans "Other Styles" %}</th>
+          <th>FUMIHEALING:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{% trans "Relaxation — pleasant sensation, temporary change" %}</td>
+          <td>{% trans "Structural change — lasting results" %}</td>
+        </tr>
+        <tr>
+          <td>{% trans "Targets superficial layer" %}</td>
+          <td>{% trans "Works the deep layer" %}</td>
+        </tr>
+        <tr>
+          <td>{% trans "Drain first, then relax" %}</td>
+          <td>{% trans "Balance first, then flow" %}</td>
+        </tr>
+        <tr>
+          <td>{% trans "Oil massage — sliding technique" %}</td>
+          <td>{% trans "Shiatsu + lymph — point & area combined" %}</td>
+        </tr>
+        <tr>
+          <td>{% trans "Effect fades quickly" %}</td>
+          <td>{% trans "The body learns a new, healthy state" %}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ── WHY WE PAUSE ── -->
+<section class="section section--ivory">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <p class="section__eyebrow">{% trans "Technique" %}</p>
+        <h2 class="section__title">{% trans "Why we pause — and wait" %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead" style="margin-bottom:1.5rem;">{% trans "The body does not change the moment pressure is applied." %}</p>
+        <ul class="steps">
+          <li>
+            <div>
+              <h4>{% trans "Muscles need time to release" %}</h4>
+              <p>{% trans "Rushing past this moment means the next touch lands before the body has responded." %}</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h4>{% trans "Breathing needs time to shift" %}</h4>
+              <p>{% trans "A change in breath is a change in the whole nervous system — and that requires space." %}</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h4>{% trans "The nervous system needs time to respond" %}</h4>
+              <p>{% trans "When we apply pressure and wait, the body begins to change in that interval. This 'gap' is where real transformation happens." %}</p>
+            </div>
+          </li>
+        </ul>
+        <div class="blockquote" style="margin-top:1.5rem;">
+          <p>{% trans "Apply pressure. Then wait. In that pause, the body begins to change." %}</p>
+        </div>
+      </div>
+      <div class="col-img">
+        <img src="{% static 'website/img/massage_4.png' %}" alt="FUMIHEALING: pause technique">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SHIATSU ── -->
+<section class="section section--teal cta-band">
+  <div class="container" style="max-width:720px; margin:0 auto;">
+    <p class="section__eyebrow" style="color:var(--gold-light); justify-content:center;">{% trans "Shiatsu" %}</p>
+    <h2 class="section__title">{% trans "The role of shiatsu" %}</h2>
+    <div class="section__rule" style="margin: 0 auto 1.5rem;"></div>
+    <p class="section__lead" style="margin: 0 auto 2.5rem;">
+      {% trans "In FUMIHEALING:, shiatsu is not a pressure technique — it is a balancing technique. Lymph drainage works across areas (surface); shiatsu works at points (depth). By combining area and point, the body's transformation deepens." %}
+    </p>
+    <a href="{% url 'school' %}" class="btn btn--ghost">{% trans "Learn This Method" %}</a>
+  </div>
+</section>
+
+{% endblock %}

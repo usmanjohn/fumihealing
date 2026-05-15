@@ -1,0 +1,173 @@
+{% extends "website/base.html" %}
+{% load i18n static %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block content %}
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero__text">
+    <span class="hero__kamon">円</span>
+    <div class="hero__eyebrow">{% trans "Japanese Deep Lymph Care" %}</div>
+    <h1 class="hero__title">
+      {% trans "Balance first," %}
+      <strong>{% trans "then flow." %}</strong>
+    </h1>
+    <p class="hero__ja">先に整えて、流す</p>
+    <p class="hero__lead">
+      {% trans "Suzuki Fumiko brings 17 years of Japanese healing expertise to Uzbekistan — a method that restores your body's natural harmony from within." %}
+    </p>
+    <div class="hero__actions">
+      <a href="{% url 'method' %}" class="btn btn--primary">{% trans "Discover the Method" %}</a>
+      <a href="{% url 'school' %}" class="btn btn--outline">{% trans "Join the School" %}</a>
+    </div>
+  </div>
+  <div class="hero__img">
+    <img src="{% static 'website/img/owner_image.png' %}" alt="Suzuki Fumiko — FUMIHEALING:">
+  </div>
+</section>
+
+<!-- ── STATS ── -->
+<div class="section section--ivory" style="padding: 3rem 0;">
+  <div class="container">
+    <div class="stat-row">
+      <div class="stat-item">
+        <div class="stat-item__num">17</div>
+        <div class="stat-item__label">{% trans "Years in Japan" %}</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-item__num">4</div>
+        <div class="stat-item__label">{% trans "Languages" %}</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-item__num">2025</div>
+        <div class="stat-item__label">{% trans "Founded in Tashkent" %}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── WHO WE ARE ── -->
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div class="col-img">
+        <img src="{% static 'website/img/owner_image_2.png' %}" alt="Suzuki Fumiko">
+        <div class="col-img__badge">
+          <div class="col-img__badge-num">17</div>
+          <div class="col-img__badge-label">{% trans "years" %}</div>
+        </div>
+      </div>
+      <div>
+        <p class="section__eyebrow">{% trans "Who We Are" %}</p>
+        <h2 class="section__title">{% trans "FUMIHEALING: — deep care, Japanese soul." %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead">
+          {% trans "Founded by Suzuki Fumiko, FUMIHEALING: is a Japanese-style deep lymph care practice and school now rooted in Uzbekistan. With over 17 years of experience as a practitioner and educator in Japan, Fumiko brings a philosophy of balance — not force, not mere relaxation, but true structural harmony." %}
+        </p>
+        <div class="blockquote" style="margin-top:1.5rem;">
+          <p>{% trans "There is no national border when it comes to touching the human body." %}</p>
+        </div>
+        <a href="{% url 'about' %}" class="btn btn--primary" style="margin-top:1.5rem;">{% trans "Our Story" %}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── GALLERY ── -->
+<section class="section section--ivory">
+  <div class="container">
+    <p class="section__eyebrow">{% trans "In Practice" %}</p>
+    <h2 class="section__title">{% trans "The art of deep touch" %}</h2>
+    <div class="section__rule"></div>
+    <p class="section__lead">{% trans "Every session is a moment of balance — not force, not speed, but presence and precision." %}</p>
+    <div class="gallery">
+      <div class="gallery__item">
+        <img src="{% static 'website/img/massage_1.png' %}" alt="FUMIHEALING: technique">
+        <div class="gallery__item__overlay"><span class="gallery__item__label">{% trans "Deep Lymph Care" %}</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="{% static 'website/img/massage_2.png' %}" alt="FUMIHEALING: technique">
+        <div class="gallery__item__overlay"><span class="gallery__item__label">{% trans "Décolleté & Neck" %}</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="{% static 'website/img/massage_3.png' %}" alt="FUMIHEALING: technique">
+        <div class="gallery__item__overlay"><span class="gallery__item__label">{% trans "Balance & Flow" %}</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="{% static 'website/img/massage_4.png' %}" alt="FUMIHEALING: technique">
+        <div class="gallery__item__overlay"><span class="gallery__item__label">{% trans "Japanese Method" %}</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── THREE PILLARS ── -->
+<section class="section">
+  <div class="container">
+    <p class="section__eyebrow">{% trans "What Makes Us Different" %}</p>
+    <h2 class="section__title">{% trans "The three pillars of FUMIHEALING:" %}</h2>
+    <div class="section__rule"></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card__num">01</div>
+        <!-- Balance / scales -->
+        <svg class="card__svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="24" cy="8" r="2.5" fill="currentColor" stroke="none"/>
+          <line x1="24" y1="10" x2="24" y2="19"/>
+          <line x1="10" y1="19" x2="38" y2="19"/>
+          <line x1="12" y1="19" x2="12" y2="29"/>
+          <line x1="36" y1="19" x2="36" y2="29"/>
+          <circle cx="12" cy="33" r="5"/>
+          <circle cx="36" cy="33" r="5"/>
+          <line x1="18" y1="43" x2="30" y2="43"/>
+        </svg>
+        <h3 class="card__title">{% trans "Balance First" %}</h3>
+        <p class="card__text">{% trans "Most approaches simply drain lymph. We balance the structure first — muscles, posture, breathing — so the body flows naturally on its own." %}</p>
+      </div>
+      <div class="card">
+        <div class="card__num">02</div>
+        <!-- Deep waves -->
+        <svg class="card__svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true">
+          <path d="M0 14 C8 8,16 8,24 14 C32 20,40 20,48 14" stroke-width="2"/>
+          <path d="M0 24 C8 18,16 18,24 24 C32 30,40 30,48 24" stroke-width="1.5" stroke-opacity="0.55"/>
+          <path d="M0 34 C8 28,16 28,24 34 C32 40,40 40,48 34" stroke-width="1" stroke-opacity="0.28"/>
+        </svg>
+        <h3 class="card__title">{% trans "Deep, Not Superficial" %}</h3>
+        <p class="card__text">{% trans "Superficial massage brings temporary relief. Deep lymph care addresses the root cause: muscle tension and structural imbalance that block the flow." %}</p>
+      </div>
+      <div class="card">
+        <div class="card__num">03</div>
+        <!-- Shiatsu: area circle + point -->
+        <svg class="card__svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true">
+          <circle cx="24" cy="24" r="18" stroke-width="1.5"/>
+          <circle cx="24" cy="24" r="5" fill="currentColor" stroke="none"/>
+          <line x1="24" y1="4" x2="24" y2="11" stroke-width="1"/>
+          <line x1="24" y1="37" x2="24" y2="44" stroke-width="1"/>
+          <line x1="4" y1="24" x2="11" y2="24" stroke-width="1"/>
+          <line x1="37" y1="24" x2="44" y2="24" stroke-width="1"/>
+        </svg>
+        <h3 class="card__title">{% trans "Shiatsu Integration" %}</h3>
+        <p class="card__text">{% trans "We combine lymph drainage (area work) with shiatsu (point work) to create lasting change — not just a moment of ease, but a new bodily state." %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SCHOOL CTA ── -->
+<section class="section section--teal cta-band">
+  <div class="container">
+    <p class="section__eyebrow" style="color:var(--gold-light); justify-content:center;">{% trans "Training School" %}</p>
+    <h2 class="section__title">{% trans "Become a certified FUMIHEALING: therapist" %}</h2>
+    <div class="section__rule" style="margin: 0 auto 1.5rem;"></div>
+    <p class="section__lead" style="margin: 0 auto 2.5rem;">
+      {% trans "We are training the next generation of high-quality therapists in Uzbekistan — therapists who carry not just technique, but the Japanese spirit of care." %}
+    </p>
+    <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+      <a href="{% url 'school' %}" class="btn btn--ghost">{% trans "Learn More" %}</a>
+      <a href="{% url 'contact' %}" class="btn btn--outline" style="border-color:var(--gold-light);color:var(--gold-light);">{% trans "Get in Touch" %}</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

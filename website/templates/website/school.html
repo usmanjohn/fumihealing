@@ -1,0 +1,157 @@
+{% extends "website/base.html" %}
+{% load i18n static %}
+{% block title %}{% trans "School" %}{% endblock %}
+{% block meta_desc %}{% trans "Train as a FUMIHEALING: therapist. Learn Japanese deep lymph care in Uzbekistan." %}{% endblock %}
+
+{% block content %}
+
+<div class="page-hero">
+  <span class="eyebrow">ON FLOW Lymph Salon & School</span>
+  <h1>{% trans "FUMIHEALING: School" %}</h1>
+  <p>{% trans "Training high-quality therapists in Uzbekistan." %}</p>
+</div>
+
+<!-- ── INTRO ── -->
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <p class="section__eyebrow">{% trans "Training" %}</p>
+        <h2 class="section__title">{% trans "More than technique — a calling" %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead">
+          {% trans "FUMIHEALING: is not just a massage method. It is a career path and a life skill. We train therapists who can work independently, support their families, and make a meaningful difference in the lives of their clients." %}
+        </p>
+        <p class="section__lead" style="margin-top:.75rem;">
+          {% trans "Our school teaches the full FUMIHEALING: method: philosophy, lymph theory, practical technique, and the Japanese spirit of omotenashi (hospitality)." %}
+        </p>
+        <div class="stat-row" style="margin-top:2rem;">
+          <div class="stat-item">
+            <div class="stat-item__num">6</div>
+            <div class="stat-item__label">{% trans "hour course" %}</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">5</div>
+            <div class="stat-item__label">{% trans "modules" %}</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__num">4</div>
+            <div class="stat-item__label">{% trans "languages" %}</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-img">
+        <img src="{% static 'website/img/owner_image_2.png' %}" alt="School training">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CURRICULUM ── -->
+<section class="section section--ivory">
+  <div class="container">
+    <p class="section__eyebrow">{% trans "Curriculum" %}</p>
+    <h2 class="section__title">{% trans "What you will learn" %}</h2>
+    <div class="section__rule"></div>
+    <div class="cards">
+      <div class="card">
+        <div class="card__num">01</div>
+        <h3 class="card__title">{% trans "Philosophy" %}</h3>
+        <p class="card__text">{% trans "What is Japanese style? The essence of deep lymph care. How FUMIHEALING: differs from other methods." %}</p>
+      </div>
+      <div class="card">
+        <div class="card__num">02</div>
+        <h3 class="card__title">{% trans "Theory" %}</h3>
+        <p class="card__text">{% trans "Lymph flow. Why blockage occurs. Why depth matters. The relationship between muscle, bone, and lymph." %}</p>
+      </div>
+      <div class="card">
+        <div class="card__num">03</div>
+        <h3 class="card__title">{% trans "Demonstration" %}</h3>
+        <p class="card__text">{% trans "Watch live massage. Observe how the body changes through the décolleté and neck. Feel the difference yourself." %}</p>
+      </div>
+      <div class="card">
+        <div class="card__num">04</div>
+        <h3 class="card__title">{% trans "Practical ①" %}</h3>
+        <p class="card__text">{% trans "Décolleté and neck. Learn the 'stopping sensation' and correct pressure method. The foundation of the technique." %}</p>
+      </div>
+      <div class="card">
+        <div class="card__num">05</div>
+        <h3 class="card__title">{% trans "Practical ②" %}</h3>
+        <p class="card__text">{% trans "Connect décolleté → arms → neck into one continuous flow. Points become lines, lines become a system." %}</p>
+      </div>
+      <div class="card">
+        <div class="card__num">06</div>
+        <h3 class="card__title">{% trans "Full Practice" %}</h3>
+        <p class="card__text">{% trans "Partner work. Full session from start to finish. The goal is not perfection — it is confidence and the ability to do." %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── GALLERY ── -->
+<section class="section">
+  <div class="container">
+    <p class="section__eyebrow">{% trans "In Practice" %}</p>
+    <h2 class="section__title">{% trans "See the technique" %}</h2>
+    <div class="section__rule"></div>
+    <div class="gallery">
+      <div class="gallery__item">
+        <img src="{% static 'website/img/massage_1.png' %}" alt="FUMIHEALING: technique">
+        <div class="gallery__item__overlay"><span class="gallery__item__label">{% trans "Deep Lymph Care" %}</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="{% static 'website/img/massage_2.png' %}" alt="FUMIHEALING: technique">
+        <div class="gallery__item__overlay"><span class="gallery__item__label">{% trans "Décolleté" %}</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="{% static 'website/img/massage_3.png' %}" alt="FUMIHEALING: technique">
+        <div class="gallery__item__overlay"><span class="gallery__item__label">{% trans "Balance" %}</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="{% static 'website/img/massage_4.png' %}" alt="FUMIHEALING: technique">
+        <div class="gallery__item__overlay"><span class="gallery__item__label">{% trans "Japanese Method" %}</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── OMOTENASHI ── -->
+<section class="section section--ivory">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <p class="section__eyebrow">{% trans "Spirit" %}</p>
+        <h2 class="section__title">{% trans "Beyond technique: omotenashi" %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead" style="margin-bottom:1.5rem;">{% trans "We teach not just how to touch — but how to care. These qualities are the heart of the Japanese healing tradition:" %}</p>
+        <ul class="steps">
+          <li><div><h4>{% trans "Valuing your client" %}</h4><p>{% trans "Every client's wellbeing is your purpose." %}</p></div></li>
+          <li><div><h4>{% trans "Empathy and consideration" %}</h4><p>{% trans "Understanding the person in front of you, not just their body." %}</p></div></li>
+          <li><div><h4>{% trans "Gentleness and sensitivity" %}</h4><p>{% trans "Delicacy in every movement, every touch." %}</p></div></li>
+          <li><div><h4>{% trans "Building trust" %}</h4><p>{% trans "A therapist clients return to again and again." %}</p></div></li>
+        </ul>
+      </div>
+      <div class="col-img">
+        <img src="{% static 'website/img/massage_4.png' %}" alt="Omotenashi spirit">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="section section--teal cta-band">
+  <div class="container">
+    <p class="section__eyebrow" style="color:var(--gold-light); justify-content:center;">{% trans "Join Us" %}</p>
+    <h2 class="section__title">{% trans "Become a FUMIHEALING: UZBEK TEAM member" %}</h2>
+    <div class="section__rule" style="margin: 0 auto 1.5rem;"></div>
+    <p class="section__lead" style="margin: 0 auto 2.5rem;">
+      {% trans "Whether you are already a massage therapist or just beginning, we welcome you. Let's build the future of therapy in Uzbekistan together." %}
+    </p>
+    <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+      <a href="https://t.me/fumihealing" target="_blank" rel="noopener" class="btn btn--tg">✈ Telegram</a>
+      <a href="{% url 'contact' %}" class="btn btn--ghost">{% trans "Get in Touch" %}</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,174 @@
+{% extends "website/base.html" %}
+{% load i18n static %}
+{% block title %}{% trans "About" %}{% endblock %}
+{% block meta_desc %}{% trans "Learn about Suzuki Fumiko and her mission to bring Japanese deep lymph care to Uzbekistan." %}{% endblock %}
+
+{% block content %}
+
+<div class="page-hero">
+  <span class="eyebrow">FOLIYA JAPAN · FUMIHEALING:</span>
+  <h1>{% trans "About FUMIHEALING:" %}</h1>
+  <p>{% trans "A story of healing that crosses borders." %}</p>
+</div>
+
+<!-- ── FOUNDER ── -->
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div class="col-img col-img--portrait">
+        <img src="{% static 'website/img/owner_image.png' %}" alt="Suzuki Fumiko">
+        <div class="col-img__badge">
+          <div class="col-img__badge-num">17</div>
+          <div class="col-img__badge-label">{% trans "years Japan" %}</div>
+        </div>
+      </div>
+      <div>
+        <p class="section__eyebrow">{% trans "Founder" %}</p>
+        <h2 class="section__title">{% trans "Suzuki Fumiko" %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead">
+          {% trans "Hello. I am Fumiko Suzuki, representative of FOLIYA JAPAN in Uzbekistan. I worked as a practitioner and educator in Japan for 17 years. And now I have come to Uzbekistan for a reason." %}
+        </p>
+        <p class="section__lead" style="margin-top:.75rem;">
+          {% trans "I felt that there is a wonderful massage culture in this country. Uzbekistan has its own unique strengths, and Japan has its own healing approach. I wanted to bring Japan's 'balancing' technique here — and that is why I created this course." %}
+        </p>
+        <div class="blockquote">
+          <p>{% trans "There is no national border when it comes to touching the human body. We are united in our desire to improve the lives of those in front of us." %}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TIMELINE ── -->
+<section class="section section--ivory">
+  <div class="container">
+    <div style="max-width:760px; margin:0 auto;">
+      <p class="section__eyebrow">{% trans "Our Journey" %}</p>
+      <h2 class="section__title">{% trans "From Japan to Uzbekistan" %}</h2>
+      <div class="section__rule"></div>
+      <p class="section__lead" style="margin-bottom:2rem;">
+        {% trans "17 years of Japanese practice. One mission across borders." %}
+      </p>
+
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__year">{% trans "2008 — 2024" %}</div>
+          <h3 class="timeline__heading">{% trans "17 Years of Mastery in Japan" %}</h3>
+          <p class="timeline__body">{% trans "Suzuki Fumiko builds her practice in Japan as both a certified therapist and educator — specialising in deep lymphatic care, shiatsu, and the Japanese philosophy of balance (整える). She teaches across schools and private practice, refining the FUMIHEALING: method." %}</p>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__year">{% trans "2024" %}</div>
+          <h3 class="timeline__heading">{% trans "Arrival in Uzbekistan" %}</h3>
+          <p class="timeline__body">{% trans "Fumiko arrives in Uzbekistan and discovers a rich massage culture unlike anywhere she had seen. She feels an immediate connection — the warmth of the people, the openness to healing. She decides: this is where the next chapter begins." %}</p>
+        </div>
+
+        <div class="timeline__item timeline__item--major">
+          <div class="timeline__dot"></div>
+          <div class="timeline__year">{% trans "10 September 2025" %}</div>
+          <h3 class="timeline__heading">{% trans "FOLIYA JAPAN Officially Founded" %}</h3>
+          <p class="timeline__body">{% trans "\"FOLIYA JAPAN\" MCHJ is officially registered in Uzbekistan (Registration № 2940359, Ministry of Justice of the Republic of Uzbekistan). The company opens in Yangihayet district, Tashkent — the first Japanese-style deep lymph care salon & school in the country." %}</p>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__year">{% trans "2025" %}</div>
+          <h3 class="timeline__heading">{% trans "First Courses & ON FLOW School Launches" %}</h3>
+          <p class="timeline__body">{% trans "The first FUMIHEALING: training courses are held for Uzbek therapists and massage schools. ON FLOW Lymph Salon & School opens — teaching not just technique, but the Japanese spirit of omotenashi. The FUMIHEALING: UZBEK TEAM begins to form." %}</p>
+        </div>
+
+        <div class="timeline__item timeline__item--major">
+          <div class="timeline__dot"></div>
+          <div class="timeline__year">{% trans "2026 & Beyond" %}</div>
+          <h3 class="timeline__heading">{% trans "Building the Future" %}</h3>
+          <p class="timeline__body">{% trans "The mission continues: training high-quality therapists, expanding partnerships with massage schools across Uzbekistan, and building a future where people say — 'There are wonderful therapists in Uzbekistan too.'" %}</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MISSION ── -->
+<section class="section">
+  <div class="container">
+    <div class="two-col two-col--reverse">
+      <div>
+        <p class="section__eyebrow">{% trans "Our Mission" %}</p>
+        <h2 class="section__title">{% trans "Why Uzbekistan?" %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead">{% trans "I came to Uzbekistan to spread Japanese-style deep lymph care. My goal is not simply to teach technique." %}</p>
+        <p class="section__lead" style="margin-top:.75rem;">{% trans "I want to create a future here together where women can gain a skill and live by their own strength." %}</p>
+        <p class="section__lead" style="margin-top:.75rem;">{% trans "I believe Uzbekistan is a country that will develop greatly in the coming years. As the economy grows and society changes, women's ways of working and living will gradually change too. At the same time, fatigue will certainly accumulate in people's hearts and bodies. That is why I believe the 'therapist' will become one of the most needed professions of the coming era." %}</p>
+      </div>
+      <div class="col-img">
+        <img src="{% static 'website/img/owner_image_2.png' %}" alt="Fumiko with students">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── VALUES ── -->
+<section class="section section--ivory">
+  <div class="container">
+    <p class="section__eyebrow" style="justify-content:center; text-align:center;">{% trans "Our Values" %}</p>
+    <h2 class="section__title text-center">{% trans "What we carry across borders" %}</h2>
+    <div class="section__rule" style="margin: 0 auto 2.5rem;"></div>
+    <div class="cards">
+      <div class="card">
+        <!-- Omotenashi: four-petal mon (Japanese family crest style) -->
+        <svg class="card__svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+          <circle cx="24" cy="13" r="7"/>
+          <circle cx="24" cy="35" r="7"/>
+          <circle cx="13" cy="24" r="7"/>
+          <circle cx="35" cy="24" r="7"/>
+          <circle cx="24" cy="24" r="4" fill="currentColor" stroke="none"/>
+        </svg>
+        <h3 class="card__title">{% trans "Japanese Omotenashi" %}</h3>
+        <p class="card__text">{% trans "We teach not just technique, but the spirit: valuing clients, showing care, attentiveness, sensitivity, and building trust." %}</p>
+      </div>
+      <div class="card">
+        <!-- Empowerment: upward arrow in circle -->
+        <svg class="card__svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="24" cy="24" r="18"/>
+          <line x1="24" y1="32" x2="24" y2="15"/>
+          <polyline points="15,23 24,15 33,23"/>
+        </svg>
+        <h3 class="card__title">{% trans "Women's Empowerment" %}</h3>
+        <p class="card__text">{% trans "We want students to work in FUMIHEALING: salons, become independent, support their families, and change their lives." %}</p>
+      </div>
+      <div class="card">
+        <!-- Cultural bridge: two overlapping circles -->
+        <svg class="card__svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+          <circle cx="17" cy="24" r="13"/>
+          <circle cx="31" cy="24" r="13"/>
+          <path d="M24 12 C28 15,28 33,24 36" stroke-width="1" stroke-opacity="0.45"/>
+        </svg>
+        <h3 class="card__title">{% trans "Cultural Bridge" %}</h3>
+        <p class="card__text">{% trans "Different languages, different cultures — yet the desire to heal people's bodies and hearts knows no borders." %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── VISION ── -->
+<section class="section section--teal cta-band">
+  <div class="container">
+    <p class="section__eyebrow" style="color:var(--gold-light); justify-content:center;">{% trans "Vision" %}</p>
+    <h2 class="section__title">{% trans "1–2 years from now" %}</h2>
+    <div class="section__rule" style="margin: 0 auto 1.5rem;"></div>
+    <p class="section__lead" style="margin: 0 auto 2.5rem;">
+      {% trans "I want to create a future where people say: 'There are also wonderful therapists in Uzbekistan.'" %}
+    </p>
+    <p style="color:rgba(255,255,255,.6); font-style:italic; font-size:.95rem; margin-bottom:2rem;">
+      {% trans "I see great possibilities in Uzbekistan's future. That is precisely why I decided to start here, at this moment." %}
+    </p>
+    <a href="{% url 'school' %}" class="btn btn--ghost">{% trans "Join FUMIHEALING: UZBEK TEAM" %}</a>
+  </div>
+</section>
+
+{% endblock %}

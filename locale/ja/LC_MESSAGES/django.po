@@ -1,0 +1,1029 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-15 11:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: website/templates/website/about.html:3
+#: website/templates/website/base.html:28
+#: website/templates/website/base.html:57
+msgid "About"
+msgstr "私たちについて"
+
+#: website/templates/website/about.html:4
+msgid ""
+"Learn about Suzuki Fumiko and her mission to bring Japanese deep lymph care "
+"to Uzbekistan."
+msgstr ""
+"鈴木富美子と、日本式深リンパケアをウズベキスタンに広めるためのミッションにつ"
+"いて。"
+
+#: website/templates/website/about.html:10
+msgid "About FUMIHEALING:"
+msgstr "FUMIHEALING: について"
+
+#: website/templates/website/about.html:11
+msgid "A story of healing that crosses borders."
+msgstr "国境を越えた、癌しの物語。"
+
+#: website/templates/website/about.html:22
+msgid "years Japan"
+msgstr "年間（日本）"
+
+#: website/templates/website/about.html:26
+msgid "Founder"
+msgstr "創設者"
+
+#: website/templates/website/about.html:27
+#: website/templates/website/contact.html:103
+msgid "Suzuki Fumiko"
+msgstr "鈴木富美子"
+
+#: website/templates/website/about.html:30
+msgid ""
+"Hello. I am Fumiko Suzuki, representative of FOLIYA JAPAN in Uzbekistan. I "
+"worked as a practitioner and educator in Japan for 17 years. And now I have "
+"come to Uzbekistan for a reason."
+msgstr ""
+"こんにちは。私は鈴木富美子、ウズベキスタンにおけるFOLIYA JAPANの代表です。日"
+"本でおよす17年間、施術者・講師として活動してきました。そして今、理由があって"
+"ウズベキスタンに来ました。"
+
+#: website/templates/website/about.html:33
+msgid ""
+"I felt that there is a wonderful massage culture in this country. Uzbekistan "
+"has its own unique strengths, and Japan has its own healing approach. I "
+"wanted to bring Japan's 'balancing' technique here — and that is why I "
+"created this course."
+msgstr ""
+"この国には素晴らしいマッサージ文化があると感じました。ウズベキスタンには独自"
+"の強み、日本には独自の癌しのアプローチがあります。日本の整える技術をここに届"
+"けたい——そう思い、このコースを作りました。"
+
+#: website/templates/website/about.html:36
+msgid ""
+"There is no national border when it comes to touching the human body. We are "
+"united in our desire to improve the lives of those in front of us."
+msgstr ""
+"人の体に触れることに、国境はありません。目の前の人をよくしたいという想いで、"
+"私たちは繋がっています。"
+
+#: website/templates/website/about.html:47
+#, fuzzy
+#| msgid "Our Story"
+msgid "Our Journey"
+msgstr "私たちのストーリー"
+
+#: website/templates/website/about.html:48
+#, fuzzy
+#| msgid "Tashkent, Uzbekistan"
+msgid "From Japan to Uzbekistan"
+msgstr "タシュケント、ウズベキスタン"
+
+#: website/templates/website/about.html:51
+msgid "17 years of Japanese practice. One mission across borders."
+msgstr "17年の日本での実践。国境を越えたひとつのミッション。"
+
+#: website/templates/website/about.html:58
+msgid "2008 — 2024"
+msgstr "2008 — 2024"
+
+#: website/templates/website/about.html:59
+msgid "17 Years of Mastery in Japan"
+msgstr "日本での17年の熟練"
+
+#: website/templates/website/about.html:60
+msgid ""
+"Suzuki Fumiko builds her practice in Japan as both a certified therapist and "
+"educator — specialising in deep lymphatic care, shiatsu, and the Japanese "
+"philosophy of balance (整える). She teaches across schools and private "
+"practice, refining the FUMIHEALING: method."
+msgstr "鈴木富美子は、認定セラピスト兼講師として日本での実践を積み上げます——深リンパケア、指圧、そして日本の整える哲学を専門とし、スクールや個人施術を通じてFUMIHEALING: メソッドを磨き続けます。"
+
+#: website/templates/website/about.html:65
+msgid "2024"
+msgstr "2024"
+
+#: website/templates/website/about.html:66
+#, fuzzy
+#| msgid "Tashkent, Uzbekistan"
+msgid "Arrival in Uzbekistan"
+msgstr "タシュケント、ウズベキスタン"
+
+#: website/templates/website/about.html:67
+msgid ""
+"Fumiko arrives in Uzbekistan and discovers a rich massage culture unlike "
+"anywhere she had seen. She feels an immediate connection — the warmth of the "
+"people, the openness to healing. She decides: this is where the next chapter "
+"begins."
+msgstr "富美子はウズベキスタンに到着し、これまでどこにも見たことのない豊かなマッサージ文化を発見します。人々の温かさ、癒しへの開放性に即座に繋がりを感じます。そして決意します：次の章はここから始まると。"
+
+#: website/templates/website/about.html:72
+msgid "10 September 2025"
+msgstr "2025年9月10日"
+
+#: website/templates/website/about.html:73
+msgid "FOLIYA JAPAN Officially Founded"
+msgstr "FOLIYA JAPAN 正式設立"
+
+#: website/templates/website/about.html:74
+msgid "\\"
+msgstr ""
+
+#: website/templates/website/about.html:79
+msgid "2025"
+msgstr "2025"
+
+#: website/templates/website/about.html:80
+msgid "First Courses & ON FLOW School Launches"
+msgstr "初コース開催＆ON FLOWスクール開校"
+
+#: website/templates/website/about.html:81
+msgid ""
+"The first FUMIHEALING: training courses are held for Uzbek therapists and "
+"massage schools. ON FLOW Lymph Salon & School opens — teaching not just "
+"technique, but the Japanese spirit of omotenashi. The FUMIHEALING: UZBEK "
+"TEAM begins to form."
+msgstr "ウズベキのセラピスト・マッサージスクール向けに初のFUMIHEALING: 研修コースが開催されます。ON FLOW Lymph Salon & Schoolが開校——技術だけでなく、おもてなしの日本精神も教えます。FUMIHEALING: UZBEK TEAMが形成され始めます。"
+
+#: website/templates/website/about.html:86
+msgid "2026 & Beyond"
+msgstr "2026年以降"
+
+#: website/templates/website/about.html:87
+#, fuzzy
+#| msgid "Building trust"
+msgid "Building the Future"
+msgstr "信頼関係の構築"
+
+#: website/templates/website/about.html:88
+msgid ""
+"The mission continues: training high-quality therapists, expanding "
+"partnerships with massage schools across Uzbekistan, and building a future "
+"where people say — 'There are wonderful therapists in Uzbekistan too.'"
+msgstr "ミッションは続きます：高品質なセラピストの育成、ウズベキスタン全土のマッサージスクールとのパートナーシップ拡大、そして「ウズベキスタンにも素晴らしいセラピストがいる」と言われる未来の構築。"
+
+#: website/templates/website/about.html:101
+msgid "Our Mission"
+msgstr "ミッション"
+
+#: website/templates/website/about.html:102
+msgid "Why Uzbekistan?"
+msgstr "なぜウズベキスタンなのか"
+
+#: website/templates/website/about.html:104
+msgid ""
+"I came to Uzbekistan to spread Japanese-style deep lymph care. My goal is "
+"not simply to teach technique."
+msgstr ""
+"私は、日本式の深リンパケアをウズベキスタンに広げるために、この国へ来ました。"
+"ただ技術を教えたいのではありません。"
+
+#: website/templates/website/about.html:105
+msgid ""
+"I want to create a future here together where women can gain a skill and "
+"live by their own strength."
+msgstr ""
+"「女性が手に職を持ち、自分の力で生きていける未来」を、この国で一緒に作ってい"
+"きたいと思っています。"
+
+#: website/templates/website/about.html:106
+msgid ""
+"I believe Uzbekistan is a country that will develop greatly in the coming "
+"years. As the economy grows and society changes, women's ways of working and "
+"living will gradually change too. At the same time, fatigue will certainly "
+"accumulate in people's hearts and bodies. That is why I believe the "
+"'therapist' will become one of the most needed professions of the coming era."
+msgstr ""
+"ウズベキスタンは大きく発展していく国だと思っています。経済が成長し社会が変わ"
+"る中で、女性の働き方や生き方も少しずつ変わっていくでしょう。同時に、心や体に"
+"は必ず疲れが生まれます。だからこそ「セラピスト」は、これからの時代に最も必要"
+"とされる職業になると信じています。"
+
+#: website/templates/website/about.html:118
+msgid "Our Values"
+msgstr "私たちの価値観"
+
+#: website/templates/website/about.html:119
+msgid "What we carry across borders"
+msgstr "国境を越えて持ち運ぶもの"
+
+#: website/templates/website/about.html:124
+msgid "Japanese Omotenashi"
+msgstr "日本式おもてなし"
+
+#: website/templates/website/about.html:125
+msgid ""
+"We teach not just technique, but the spirit: valuing clients, showing care, "
+"attentiveness, sensitivity, and building trust."
+msgstr ""
+"技術だけでなく、お客様を大切にする心、思いやる姿勢、丁寧さ、繊細さ、信頼関係"
+"——日本式おもてなしも一緒にお伝えしています。"
+
+#: website/templates/website/about.html:129
+msgid "Women's Empowerment"
+msgstr "女性の自立"
+
+#: website/templates/website/about.html:130
+msgid ""
+"We want students to work in FUMIHEALING: salons, become independent, support "
+"their families, and change their lives."
+msgstr ""
+"スクールで学んだ生徒さんたちが、FUMIHEALING:のサロンで働き、自立し、家族を支"
+"え、人生を変えていけるような環境を作っていきたいです。"
+
+#: website/templates/website/about.html:134
+msgid "Cultural Bridge"
+msgstr "文化の架け橋"
+
+#: website/templates/website/about.html:135
+msgid ""
+"Different languages, different cultures — yet the desire to heal people's "
+"bodies and hearts knows no borders."
+msgstr ""
+"言語も文化も違う。でも、人の心と体を癌したいという想いに、国境はありません。"
+
+#: website/templates/website/about.html:144
+msgid "Vision"
+msgstr "ビジョン"
+
+#: website/templates/website/about.html:145
+msgid "1–2 years from now"
+msgstr "1～2年後"
+
+#: website/templates/website/about.html:148
+msgid ""
+"I want to create a future where people say: 'There are also wonderful "
+"therapists in Uzbekistan.'"
+msgstr ""
+"「ウズベキスタンにも素晴らしいセラピストがいる」そう言われる未来を作りたい。"
+
+#: website/templates/website/about.html:151
+#: website/templates/website/contact.html:102
+msgid ""
+"I see great possibilities in Uzbekistan's future. That is precisely why I "
+"decided to start here, at this moment."
+msgstr ""
+"ウズベキスタンの未来に可能性を感じています。だからこそ、今このタイミングで、"
+"ここからスタートしたいと思いました。"
+
+#: website/templates/website/about.html:153
+msgid "Join FUMIHEALING: UZBEK TEAM"
+msgstr "FUMIHEALING: UZBEK TEAMに参加する"
+
+#: website/templates/website/base.html:8
+#, fuzzy
+#| msgid ""
+#| "Japanese-style deep lymph care — salon & training school in Uzbekistan."
+msgid ""
+"Japanese-style deep lymph care — salon & training school in Tashkent, "
+"Uzbekistan."
+msgstr "日本式深リンパケア——ウズベキスタンのサロン＆スクール。"
+
+#: website/templates/website/base.html:27
+#: website/templates/website/base.html:56 website/templates/website/home.html:3
+msgid "Home"
+msgstr "ホーム"
+
+#: website/templates/website/base.html:29
+#: website/templates/website/base.html:58
+msgid "Method"
+msgstr "メソッド"
+
+#: website/templates/website/base.html:30
+#: website/templates/website/base.html:59
+#: website/templates/website/school.html:3
+msgid "School"
+msgstr "スクール"
+
+#: website/templates/website/base.html:31
+#: website/templates/website/base.html:60
+#: website/templates/website/base.html:65
+#: website/templates/website/contact.html:3
+msgid "Contact"
+msgstr "お問い合わせ"
+
+#: website/templates/website/base.html:50
+#, fuzzy
+#| msgid ""
+#| "Japanese-style deep lymph care — salon & training school in Uzbekistan."
+msgid "Japanese-style deep lymph care. Balance first, then flow."
+msgstr "日本式深リンパケア——ウズベキスタンのサロン＆スクール。"
+
+#: website/templates/website/base.html:54
+msgid "Pages"
+msgstr "ページ"
+
+#: website/templates/website/base.html:74
+#: website/templates/website/contact.html:65
+msgid "Reg."
+msgstr "登録"
+
+#: website/templates/website/contact.html:4
+msgid ""
+"Contact FUMIHEALING: — reach out for courses, bookings, or collaborations."
+msgstr ""
+"FUMIHEALING: へのお問い合わせ——コース・予約・コラボレーションについて。"
+
+#: website/templates/website/contact.html:10
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: website/templates/website/contact.html:11
+msgid "Reach out for courses, collaborations, or questions."
+msgstr "コース、コラボ、ご質問はこちらから。"
+
+#: website/templates/website/contact.html:20
+#: website/templates/website/home.html:145
+#: website/templates/website/school.html:152
+msgid "Get in Touch"
+msgstr "お問い合わせ"
+
+#: website/templates/website/contact.html:21
+msgid "We'd love to hear from you"
+msgstr "ぶぜご連絡ください"
+
+#: website/templates/website/contact.html:24
+msgid ""
+"Whether you are interested in the training school, have questions about the "
+"FUMIHEALING: method, or would like to explore collaboration — please reach "
+"out."
+msgstr ""
+"スクールにご興味がある方、メソッドについてご質問のある方、コラボレーションを"
+"検討されている方、どうぞお気軽にご連絡ください。"
+
+#: website/templates/website/contact.html:31
+msgid "Address"
+msgstr "住所"
+
+#: website/templates/website/contact.html:33
+msgid "Yangihayet district, Fayzli MFY,"
+msgstr "ヤンギハーエト区、Fayzli MFY、"
+
+#: website/templates/website/contact.html:34
+msgid "Rayxon ko'chasi, 107-uy,"
+msgstr "Rayxon通り107番地、"
+
+#: website/templates/website/contact.html:35
+msgid "Tashkent, Uzbekistan"
+msgstr "タシュケント、ウズベキスタン"
+
+#: website/templates/website/contact.html:43
+msgid "Phone"
+msgstr "電話"
+
+#: website/templates/website/contact.html:53
+msgid "Email"
+msgstr ""
+
+#: website/templates/website/contact.html:63
+msgid "Company"
+msgstr "会社"
+
+#: website/templates/website/contact.html:65
+#, fuzzy
+#| msgid "Founder"
+msgid "Founded"
+msgstr "創設者"
+
+#: website/templates/website/contact.html:73
+#: website/templates/website/home.html:40
+msgid "Languages"
+msgstr "対応言語"
+
+#: website/templates/website/contact.html:83
+msgid "Call Us"
+msgstr "電話する"
+
+#: website/templates/website/contact.html:86
+msgid "Send Email"
+msgstr "メール送信"
+
+#: website/templates/website/contact.html:94
+msgid "FUMIHEALING: UZBEK TEAM"
+msgstr "FUMIHEALING: UZBEK TEAM"
+
+#: website/templates/website/contact.html:95
+msgid "Join the mission"
+msgstr "ミッションに参加する"
+
+#: website/templates/website/contact.html:98
+msgid ""
+"We are building a team of dedicated therapists in Uzbekistan who carry the "
+"FUMIHEALING: philosophy. If you are a massage school, therapist, or wellness "
+"professional, we welcome you to reach out about partnership."
+msgstr ""
+"FUMIHEALING:の理念を持つセラピストのチームをウズベキスタンで作っています。"
+"マッサージスクール、セラピスト、ウェルネス専門家の方は、パートナーシップにつ"
+"いてご連絡ください。"
+
+#: website/templates/website/home.html:11
+msgid "Japanese Deep Lymph Care"
+msgstr "日本式深リンパケア"
+
+#: website/templates/website/home.html:13
+msgid "Balance first,"
+msgstr "まず整える、"
+
+#: website/templates/website/home.html:14
+msgid "then flow."
+msgstr "そして流す。"
+
+#: website/templates/website/home.html:18
+#, fuzzy
+#| msgid ""
+#| "Suzuki Fumiko brings 17 years of Japanese healing expertise to Uzbekistan "
+#| "— a unique method that restores your body's natural harmony."
+msgid ""
+"Suzuki Fumiko brings 17 years of Japanese healing expertise to Uzbekistan — "
+"a method that restores your body's natural harmony from within."
+msgstr ""
+"鈴木富美子17年の日本式施術の経験をウズベキスタンに届けます——体本来のバランス"
+"を取り戻す、唯一無二のメソッド。"
+
+#: website/templates/website/home.html:21
+msgid "Discover the Method"
+msgstr "メソッドを見る"
+
+#: website/templates/website/home.html:22
+msgid "Join the School"
+msgstr "スクールに参加"
+
+#: website/templates/website/home.html:36
+msgid "Years in Japan"
+msgstr "日本での年数"
+
+#: website/templates/website/home.html:44
+msgid "Founded in Tashkent"
+msgstr "タシュケントで設立"
+
+#: website/templates/website/home.html:58
+msgid "years"
+msgstr "年"
+
+#: website/templates/website/home.html:62
+msgid "Who We Are"
+msgstr "私たちについて"
+
+#: website/templates/website/home.html:63
+msgid "FUMIHEALING: — deep care, Japanese soul."
+msgstr "FUMIHEALING: ——深い施術、日本の魂。"
+
+#: website/templates/website/home.html:66
+msgid ""
+"Founded by Suzuki Fumiko, FUMIHEALING: is a Japanese-style deep lymph care "
+"practice and school now rooted in Uzbekistan. With over 17 years of "
+"experience as a practitioner and educator in Japan, Fumiko brings a "
+"philosophy of balance — not force, not mere relaxation, but true structural "
+"harmony."
+msgstr ""
+"鈴木富美子が創設したFUMIHEALING:は、現在ウズベキスタンに根付いた日本式深リン"
+"パケアの施術院・スクールです。日本での17年以上の経験を持つ富美子が、整える哲"
+"学——力ではなく、ただのリラクゼーションでもなく、真の構造的バランス——をお届け"
+"します。"
+
+#: website/templates/website/home.html:69
+msgid "There is no national border when it comes to touching the human body."
+msgstr "人の体に触れることに、国境はありません。"
+
+#: website/templates/website/home.html:71
+msgid "Our Story"
+msgstr "私たちのストーリー"
+
+#: website/templates/website/home.html:80
+#: website/templates/website/school.html:94
+#, fuzzy
+#| msgid "Full Practice"
+msgid "In Practice"
+msgstr "総合実習"
+
+#: website/templates/website/home.html:81
+msgid "The art of deep touch"
+msgstr "深い触れるの技"
+
+#: website/templates/website/home.html:83
+msgid ""
+"Every session is a moment of balance — not force, not speed, but presence "
+"and precision."
+msgstr "すべてのセッションはバランスの瞬間——力でもなく、速さでもなく、存在感と精度。"
+
+#: website/templates/website/home.html:87
+#: website/templates/website/school.html:100
+#, fuzzy
+#| msgid "Japanese Deep Lymph Care"
+msgid "Deep Lymph Care"
+msgstr "日本式深リンパケア"
+
+#: website/templates/website/home.html:91
+msgid "Décolleté & Neck"
+msgstr "デコルテと首"
+
+#: website/templates/website/home.html:95
+#, fuzzy
+#| msgid "Balance First"
+msgid "Balance & Flow"
+msgstr "まず整える"
+
+#: website/templates/website/home.html:99
+#: website/templates/website/school.html:112
+#, fuzzy
+#| msgid "Japanese Omotenashi"
+msgid "Japanese Method"
+msgstr "日本式おもてなし"
+
+#: website/templates/website/home.html:108
+msgid "What Makes Us Different"
+msgstr "私たちの強み"
+
+#: website/templates/website/home.html:109
+msgid "The three pillars of FUMIHEALING:"
+msgstr "FUMIHEALING: の3つの柱"
+
+#: website/templates/website/home.html:115
+msgid "Balance First"
+msgstr "まず整える"
+
+#: website/templates/website/home.html:116
+msgid ""
+"Most approaches simply drain lymph. We balance the structure first — "
+"muscles, posture, breathing — so the body flows naturally on its own."
+msgstr ""
+"多くのアプローチはただリンパを流すだけです。私たちはまず構造——筋肉、姿勢、呼"
+"吸——を整えます。そうすることで、体は自然と流れ始めます。"
+
+#: website/templates/website/home.html:121
+msgid "Deep, Not Superficial"
+msgstr "深く、表面だけではなく"
+
+#: website/templates/website/home.html:122
+msgid ""
+"Superficial massage brings temporary relief. Deep lymph care addresses the "
+"root cause: muscle tension and structural imbalance that block the flow."
+msgstr ""
+"表面的なマッサージは一時的な楽さをもたらします。深リンパケアは根本原因——流れ"
+"を妨げる筋肉の緊張と構造的不均衡——にアプローチします。"
+
+#: website/templates/website/home.html:127
+msgid "Shiatsu Integration"
+msgstr "指圧との融合"
+
+#: website/templates/website/home.html:128
+msgid ""
+"We combine lymph drainage (area work) with shiatsu (point work) to create "
+"lasting change — not just a moment of ease, but a new bodily state."
+msgstr ""
+"リンパドレナージ（面の施術）と指圧（点の施術）を組み合わせ、持続的な変化を生"
+"み出します——一時的な楽さではなく、新しい体の状態を。"
+
+#: website/templates/website/home.html:137
+msgid "Training School"
+msgstr "スクール"
+
+#: website/templates/website/home.html:138
+msgid "Become a certified FUMIHEALING: therapist"
+msgstr "FUMIHEALING: 認定セラピストになる"
+
+#: website/templates/website/home.html:141
+msgid ""
+"We are training the next generation of high-quality therapists in Uzbekistan "
+"— therapists who carry not just technique, but the Japanese spirit of care."
+msgstr ""
+"ウズベキスタンで次世代の高品質なセラピストを育成しています——技術だけでなく、"
+"日本式のケアの精神を持つセラピストを。"
+
+#: website/templates/website/home.html:144
+msgid "Learn More"
+msgstr "詳しく見る"
+
+#: website/templates/website/method.html:3
+msgid "The Method"
+msgstr "メソッド"
+
+#: website/templates/website/method.html:4
+msgid ""
+"Learn about the FUMIHEALING: deep lymph care method — balance, depth, and "
+"the Japanese approach to healing."
+msgstr ""
+"FUMIHEALING: の深リンパケアメソッドについて——バランス、深さ、そして日本式癌し"
+"のアプローチ。"
+
+#: website/templates/website/method.html:10
+msgid "The FUMIHEALING: Method"
+msgstr "FUMIHEALING: メソッド"
+
+#: website/templates/website/method.html:11
+msgid "Not force. Not just drainage. True balance."
+msgstr "力ではない。流すだけでもない。真のバランス。"
+
+#: website/templates/website/method.html:19
+#: website/templates/website/school.html:59
+msgid "Philosophy"
+msgstr "フィロソフィー"
+
+#: website/templates/website/method.html:20
+msgid "What is Japanese-style lymph care?"
+msgstr "日本式リンパケアとは"
+
+#: website/templates/website/method.html:23
+msgid ""
+"Japanese style is not about using force, nor is it simply about continuously "
+"draining fluid. For us, the most important concept is 'balance'."
+msgstr ""
+"日本式は、力を使うことでも、ただ流し続けることでもありません。私たちにとって"
+"最も大切な概念は「整える」ことです。"
+
+#: website/templates/website/method.html:26
+msgid ""
+"In Japan, since ancient times, correcting posture, regulating breathing, and "
+"balancing internal systems have been considered essential. The essence of "
+"the Japanese approach is balancing the internal state, not the external."
+msgstr ""
+"日本では古くから、姿勢を整えること、呼吸を調えること、内側のシステムをバラン"
+"スさせることが重視されてきました。日本式の本質は、外側ではなく内側の状態を整"
+"えることです。"
+
+#: website/templates/website/method.html:29
+msgid "We do not drain. We balance — and the body flows naturally on its own."
+msgstr "私たちは流しません。整えます——すると体は自然と流れ始ます。"
+
+#: website/templates/website/method.html:44
+msgid "The Difference"
+msgstr "違い"
+
+#: website/templates/website/method.html:45
+msgid "Why deep matters"
+msgstr "なぜ深さが重要なのか"
+
+#: website/templates/website/method.html:47
+msgid ""
+"Most lymph care methods target only the surface layer. This creates "
+"temporary relief — but the problem returns quickly."
+msgstr ""
+"多くのリンパケア方法は表層にしかアプローチしません。そのため一時的な楽さは"
+"あっても、すぐに戻ってしまいます。"
+
+#: website/templates/website/method.html:48
+msgid ""
+"The lymph blockage causes are deep: muscle tension, postural imbalance, "
+"shallow breathing, internal organ fatigue, nervous system dysregulation."
+msgstr ""
+"リンパの詰まりの原因は深いところにあります：筋肉の緊張、姿勢の乱れ、浅い呼"
+"吸、内臓の疲れ、自律神経の乱れなど。"
+
+#: website/templates/website/method.html:49
+msgid ""
+"By working the deep layer, muscles release, breathing changes, and flow "
+"naturally improves. The change becomes lasting, not temporary."
+msgstr ""
+"深い層にアプローチすることで、筋肉が緩み、呼吸が変わり、流れが自然に改善しま"
+"す。変化は一時的ではなく、持続的なものになります。"
+
+#: website/templates/website/method.html:61
+msgid "Comparison"
+msgstr "比較"
+
+#: website/templates/website/method.html:62
+msgid "FUMIHEALING: vs other approaches"
+msgstr "FUMIHEALING: と他のアプローチ"
+
+#: website/templates/website/method.html:67
+msgid "Other Styles"
+msgstr "他のスタイル"
+
+#: website/templates/website/method.html:73
+msgid "Relaxation — pleasant sensation, temporary change"
+msgstr "リラクゼーション——心地よい感覚、一時的な変化"
+
+#: website/templates/website/method.html:74
+msgid "Structural change — lasting results"
+msgstr "構造的変化——持続的な結果"
+
+#: website/templates/website/method.html:77
+msgid "Targets superficial layer"
+msgstr "表層へのアプローチ"
+
+#: website/templates/website/method.html:78
+msgid "Works the deep layer"
+msgstr "深層へのアプローチ"
+
+#: website/templates/website/method.html:81
+msgid "Drain first, then relax"
+msgstr "まず流して、リラックス"
+
+#: website/templates/website/method.html:82
+msgid "Balance first, then flow"
+msgstr "まず整えて、流す"
+
+#: website/templates/website/method.html:85
+msgid "Oil massage — sliding technique"
+msgstr "オイルマッサージ——滑らせる技術"
+
+#: website/templates/website/method.html:86
+msgid "Shiatsu + lymph — point & area combined"
+msgstr "指圧＋リンパ——点と面の組み合わせ"
+
+#: website/templates/website/method.html:89
+msgid "Effect fades quickly"
+msgstr "効果はすぐに消える"
+
+#: website/templates/website/method.html:90
+msgid "The body learns a new, healthy state"
+msgstr "体が新しい、健康な状態を覚える"
+
+#: website/templates/website/method.html:102
+msgid "Technique"
+msgstr "テクニック"
+
+#: website/templates/website/method.html:103
+msgid "Why we pause — and wait"
+msgstr "なぜ止めて、待つのか"
+
+#: website/templates/website/method.html:105
+msgid "The body does not change the moment pressure is applied."
+msgstr "体は、圧をかけた瞬間には変化しません。"
+
+#: website/templates/website/method.html:109
+msgid "Muscles need time to release"
+msgstr "筋肉が緩むには時間が必要"
+
+#: website/templates/website/method.html:110
+msgid ""
+"Rushing past this moment means the next touch lands before the body has "
+"responded."
+msgstr "急いで次に進むと、体が反応する前に次の刷激が入ってしまいます。"
+
+#: website/templates/website/method.html:115
+msgid "Breathing needs time to shift"
+msgstr "呼吸が変わるには時間が必要"
+
+#: website/templates/website/method.html:116
+msgid ""
+"A change in breath is a change in the whole nervous system — and that "
+"requires space."
+msgstr "呼吸の変化は、神経系全体の変化。そのためには「間」が必要です。"
+
+#: website/templates/website/method.html:121
+msgid "The nervous system needs time to respond"
+msgstr "神経系が反応するには時間が必要"
+
+#: website/templates/website/method.html:122
+msgid ""
+"When we apply pressure and wait, the body begins to change in that interval. "
+"This 'gap' is where real transformation happens."
+msgstr ""
+"圧をかけて待つと、その「間」に体が変わり始めます。この「間」こそが、本当の変"
+"化が起きる場所です。"
+
+#: website/templates/website/method.html:127
+msgid "Apply pressure. Then wait. In that pause, the body begins to change."
+msgstr "圧をかける。そして待つ。その静けさの中で、体は変わり始める。"
+
+#: website/templates/website/method.html:140
+msgid "Shiatsu"
+msgstr "指圧"
+
+#: website/templates/website/method.html:141
+msgid "The role of shiatsu"
+msgstr "指圧の役割"
+
+#: website/templates/website/method.html:144
+msgid ""
+"In FUMIHEALING:, shiatsu is not a pressure technique — it is a balancing "
+"technique. Lymph drainage works across areas (surface); shiatsu works at "
+"points (depth). By combining area and point, the body's transformation "
+"deepens."
+msgstr ""
+"FUMIHEALING: において指圧は、押す技術ではなく「整える技術」です。リンパドレ"
+"ナージは面（表層）で流す。指圧は点（深層）で整える。面と点を組み合わせること"
+"で、体の変化が深まります。"
+
+#: website/templates/website/method.html:146
+msgid "Learn This Method"
+msgstr "このメソッドを学ぶ"
+
+#: website/templates/website/school.html:4
+msgid ""
+"Train as a FUMIHEALING: therapist. Learn Japanese deep lymph care in "
+"Uzbekistan."
+msgstr ""
+"FUMIHEALING: セラピストとして学びましょう。ウズベキスタンで日本式深リンパケア"
+"を習得。"
+
+#: website/templates/website/school.html:10
+msgid "FUMIHEALING: School"
+msgstr "FUMIHEALING: スクール"
+
+#: website/templates/website/school.html:11
+msgid "Training high-quality therapists in Uzbekistan."
+msgstr "ウズベキスタンで高品質なセラピストを育成。"
+
+#: website/templates/website/school.html:19
+msgid "Training"
+msgstr "トレーニング"
+
+#: website/templates/website/school.html:20
+msgid "More than technique — a calling"
+msgstr "技術以上のもの——それは天職"
+
+#: website/templates/website/school.html:23
+msgid ""
+"FUMIHEALING: is not just a massage method. It is a career path and a life "
+"skill. We train therapists who can work independently, support their "
+"families, and make a meaningful difference in the lives of their clients."
+msgstr ""
+"FUMIHEALING: は単なるマッサージ方法ではありません。それはキャリアパスであり、"
+"人生のスキルです。自立して働き、家族を支え、クライアントの人生に意味ある変化"
+"をもたらせるセラピストを育てています。"
+
+#: website/templates/website/school.html:26
+msgid ""
+"Our school teaches the full FUMIHEALING: method: philosophy, lymph theory, "
+"practical technique, and the Japanese spirit of omotenashi (hospitality)."
+msgstr ""
+"私たちのスクールでは、FUMIHEALING: メソッドを全体的に教えます：哲学、リンパ理"
+"論、実践テクニック、そして日本のおもてなしの精神。"
+
+#: website/templates/website/school.html:31
+msgid "hour course"
+msgstr "時間コース"
+
+#: website/templates/website/school.html:35
+msgid "modules"
+msgstr "モジュール"
+
+#: website/templates/website/school.html:39
+#, fuzzy
+#| msgid "Languages"
+msgid "languages"
+msgstr "対応言語"
+
+#: website/templates/website/school.html:53
+msgid "Curriculum"
+msgstr "カリキュラム"
+
+#: website/templates/website/school.html:54
+msgid "What you will learn"
+msgstr "学ぶこと"
+
+#: website/templates/website/school.html:60
+msgid ""
+"What is Japanese style? The essence of deep lymph care. How FUMIHEALING: "
+"differs from other methods."
+msgstr ""
+"日本式とは何か？深リンパケアの本質。FUMIHEALING: が他のメソッドとどう違うか。"
+
+#: website/templates/website/school.html:64
+msgid "Theory"
+msgstr "理論"
+
+#: website/templates/website/school.html:65
+msgid ""
+"Lymph flow. Why blockage occurs. Why depth matters. The relationship between "
+"muscle, bone, and lymph."
+msgstr ""
+"リンパの流れ。なぜ詰まるのか。なぜ深さが必要なのか。筋肉・骨・リンパの関係。"
+
+#: website/templates/website/school.html:69
+msgid "Demonstration"
+msgstr "デモンストレーション"
+
+#: website/templates/website/school.html:70
+msgid ""
+"Watch live massage. Observe how the body changes through the décolleté and "
+"neck. Feel the difference yourself."
+msgstr ""
+"実際の施術を見ます。デコルテと首を通じて体がどう変化するか観察します。違いを"
+"自分で感じてみましょう。"
+
+#: website/templates/website/school.html:74
+msgid "Practical ①"
+msgstr "実習①"
+
+#: website/templates/website/school.html:75
+msgid ""
+"Décolleté and neck. Learn the 'stopping sensation' and correct pressure "
+"method. The foundation of the technique."
+msgstr "デコルテと首。「止まる感覚」と正しい圧のかけ方を学びます。技術の土台。"
+
+#: website/templates/website/school.html:79
+msgid "Practical ②"
+msgstr "実習②"
+
+#: website/templates/website/school.html:80
+msgid ""
+"Connect décolleté → arms → neck into one continuous flow. Points become "
+"lines, lines become a system."
+msgstr ""
+"デコルテ→腐→首を一つの流れに繋げます。点が線になり、線がシステムになります。"
+
+#: website/templates/website/school.html:84
+msgid "Full Practice"
+msgstr "総合実習"
+
+#: website/templates/website/school.html:85
+msgid ""
+"Partner work. Full session from start to finish. The goal is not perfection "
+"— it is confidence and the ability to do."
+msgstr ""
+"ペアワーク。最初から最後まで全セッション。目標は完璧さではなく、自信と「でき"
+"る」感覚です。"
+
+#: website/templates/website/school.html:95
+#, fuzzy
+#| msgid "Technique"
+msgid "See the technique"
+msgstr "テクニック"
+
+#: website/templates/website/school.html:104
+msgid "Décolleté"
+msgstr "デコルテ"
+
+#: website/templates/website/school.html:108
+#, fuzzy
+#| msgid "Balance First"
+msgid "Balance"
+msgstr "まず整える"
+
+#: website/templates/website/school.html:123
+msgid "Spirit"
+msgstr "精神"
+
+#: website/templates/website/school.html:124
+msgid "Beyond technique: omotenashi"
+msgstr "技術を超えて：おもてなし"
+
+#: website/templates/website/school.html:126
+msgid ""
+"We teach not just how to touch — but how to care. These qualities are the "
+"heart of the Japanese healing tradition:"
+msgstr ""
+"觸れ方だけでなく、ケアの仕方を教えます。これらの資質が日本の癌しの伝統の核心"
+"です："
+
+#: website/templates/website/school.html:128
+msgid "Valuing your client"
+msgstr "お客様を大切にする"
+
+#: website/templates/website/school.html:128
+msgid "Every client's wellbeing is your purpose."
+msgstr "すべてのクライアントの幸福が、あなたの目的です。"
+
+#: website/templates/website/school.html:129
+msgid "Empathy and consideration"
+msgstr "共感と思いやり"
+
+#: website/templates/website/school.html:129
+msgid "Understanding the person in front of you, not just their body."
+msgstr "体だけでなく、目の前の人を理解すること。"
+
+#: website/templates/website/school.html:130
+msgid "Gentleness and sensitivity"
+msgstr "丁寧さと繊細さ"
+
+#: website/templates/website/school.html:130
+msgid "Delicacy in every movement, every touch."
+msgstr "すべての動き、すべての触れ方に込められた繊細さ。"
+
+#: website/templates/website/school.html:131
+msgid "Building trust"
+msgstr "信頼関係の構築"
+
+#: website/templates/website/school.html:131
+msgid "A therapist clients return to again and again."
+msgstr "クライアントが何度でも戻ってくるセラピスト。"
+
+#: website/templates/website/school.html:144
+msgid "Join Us"
+msgstr "参加する"
+
+#: website/templates/website/school.html:145
+msgid "Become a FUMIHEALING: UZBEK TEAM member"
+msgstr "FUMIHEALING: UZBEK TEAMのメンバーになる"
+
+#: website/templates/website/school.html:148
+msgid ""
+"Whether you are already a massage therapist or just beginning, we welcome "
+"you. Let's build the future of therapy in Uzbekistan together."
+msgstr ""
+"すでにマッサージセラピストの方も、これから始める方も、ぶぜ歓迎します。ウズベ"
+"キスタンのセラピーの未来を一緒に作りましょう。"
+
+#~ msgid "Location"
+#~ msgstr "所在地"
+
+#~ msgid "Japanese, Uzbek, Russian, English"
+#~ msgstr "日本語、ウズベク語、ロシア語、英語"

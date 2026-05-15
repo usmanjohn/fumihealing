@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: fumihealing
+    env: python
+    buildCommand: pip install -r requirements.txt && python manage.py compilemessages && python manage.py collectstatic --no-input
+    startCommand: gunicorn fumihealing.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: fumihealing.settings
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"

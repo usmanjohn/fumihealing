@@ -1,0 +1,121 @@
+{% extends "website/base.html" %}
+{% load i18n static %}
+{% block title %}{% trans "Contact" %}{% endblock %}
+{% block meta_desc %}{% trans "Contact FUMIHEALING: — reach out for courses, bookings, or collaborations." %}{% endblock %}
+
+{% block content %}
+
+<div class="page-hero">
+  <span class="eyebrow">FOLIYA JAPAN · Tashkent</span>
+  <h1>{% trans "Contact Us" %}</h1>
+  <p>{% trans "Reach out for courses, collaborations, or questions." %}</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+
+      <!-- LEFT — Real contact info -->
+      <div>
+        <p class="section__eyebrow">{% trans "Get in Touch" %}</p>
+        <h2 class="section__title">{% trans "We'd love to hear from you" %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead" style="margin-bottom:2rem;">
+          {% trans "Whether you are interested in the training school, have questions about the FUMIHEALING: method, or would like to explore collaboration — please reach out." %}
+        </p>
+
+        <div class="contact-card">
+          <div class="contact-item">
+            <span class="contact-item__icon">📍</span>
+            <div>
+              <div class="contact-item__label">{% trans "Address" %}</div>
+              <div class="contact-item__value">
+                {% trans "Yangihayet district, Fayzli MFY," %}<br>
+                {% trans "Rayxon ko'chasi, 107-uy," %}<br>
+                {% trans "Tashkent, Uzbekistan" %}
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-item__icon">📞</span>
+            <div>
+              <div class="contact-item__label">{% trans "Phone" %}</div>
+              <div class="contact-item__value">
+                <a href="tel:+998910990023">+998 (91) 099-00-23</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-item__icon">✉</span>
+            <div>
+              <div class="contact-item__label">{% trans "Email" %}</div>
+              <div class="contact-item__value">
+                <a href="mailto:232355fh@gmail.com">232355fh@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-item__icon">🇯🇵</span>
+            <div>
+              <div class="contact-item__label">{% trans "Company" %}</div>
+              <div class="contact-item__value">"FOLIYA JAPAN" MCHJ<br>
+                <small style="color:var(--soft); font-size:.8rem;">{% trans "Reg." %} № 2940359 · {% trans "Founded" %} 10.09.2025</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item" style="margin-bottom:0;">
+            <span class="contact-item__icon">🌐</span>
+            <div>
+              <div class="contact-item__label">{% trans "Languages" %}</div>
+              <div class="contact-item__value">🇯🇵 日本語 &nbsp;·&nbsp; 🇺🇿 O'zbek &nbsp;·&nbsp; 🇷🇺 Русский &nbsp;·&nbsp; 🇬🇧 English</div>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="https://t.me/fumihealing" target="_blank" rel="noopener" class="btn btn--tg">
+              ✈ Telegram
+            </a>
+            <a href="tel:+998910990023" class="btn btn--primary">
+              📞 {% trans "Call Us" %}
+            </a>
+            <a href="mailto:232355fh@gmail.com" class="btn btn--outline">
+              ✉ {% trans "Send Email" %}
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT — Mission + quote -->
+      <div>
+        <p class="section__eyebrow">{% trans "FUMIHEALING: UZBEK TEAM" %}</p>
+        <h2 class="section__title">{% trans "Join the mission" %}</h2>
+        <div class="section__rule"></div>
+        <p class="section__lead">
+          {% trans "We are building a team of dedicated therapists in Uzbekistan who carry the FUMIHEALING: philosophy. If you are a massage school, therapist, or wellness professional, we welcome you to reach out about partnership." %}
+        </p>
+
+        <div class="blockquote" style="margin-top:1.75rem;">
+          <p>{% trans "I see great possibilities in Uzbekistan's future. That is precisely why I decided to start here, at this moment." %}<br>
+          <small style="color:var(--teal-light); font-style:normal;">— {% trans "Suzuki Fumiko" %}</small>
+          </p>
+        </div>
+
+        <div style="margin-top:2rem;">
+          <img src="{% static 'website/img/massage_1.png' %}" alt="FUMIHEALING: session"
+            style="width:100%; border-radius:3px; box-shadow:0 4px 20px rgba(0,0,0,.09); object-fit:cover; max-height:260px;">
+        </div>
+
+        <p style="margin-top:1.5rem; font-size:.8rem; color:var(--soft); letter-spacing:.06em;">
+          🇯🇵 FUMIHEALING: GROUP &nbsp;·&nbsp; 🇺🇿 ON FLOW Lymph Salon & School
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% endblock %}
