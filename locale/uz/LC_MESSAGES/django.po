@@ -1047,3 +1047,21 @@ msgstr ""
 
 #~ msgid "Japanese, Uzbek, Russian, English"
 #~ msgstr "Yapon, O'zbek, Rus, Ingliz"
+
+msgid "The Essence of Japan"
+msgstr "Yaponiya mohiyati"
+
+msgid "You will feel like you are in Japan"
+msgstr "O'zingizni Yaponiyada his qilasiz"
+
+msgid "Fumiko brings the spirit of Japan to every session — the stillness, the precision, and the warmth of genuine care."
+msgstr "Fumiko har bir seansga Yaponiya ruhini olib keladi — tinchlik, aniqlik va chin g'amxo'rlikning issiqligi."
+
+msgid "In harmony with nature"
+msgstr "Tabiat bilan uyg'unlikda"
+
+msgid "Feel the nature. Feel yourself."
+msgstr "Tabiatni his qiling. O'zingizni his qiling."
+
+msgid "When we return to what is natural — the breath, the flow, the quiet — the body remembers how to heal."
+msgstr "Tabiiylikkka qaytganimizda — nafas, oqim, tinchlik — tana qanday davolanishni esga oladi."

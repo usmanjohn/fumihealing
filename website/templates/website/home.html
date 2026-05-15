@@ -23,7 +23,7 @@
     </div>
   </div>
   <div class="hero__img">
-    <img src="{% static 'website/img/owner_image.png' %}" alt="Suzuki Fumiko — FUMIHEALING:">
+    <img src="{% static 'website/img/owner_image.png' %}" alt="Suzuki Fumiko — FUMIHEALING:" class="owner-fog">
   </div>
 </section>
 
@@ -52,7 +52,7 @@
   <div class="container">
     <div class="two-col">
       <div class="col-img">
-        <img src="{% static 'website/img/owner_image_2.png' %}" alt="Suzuki Fumiko">
+        <img src="{% static 'website/img/owner_image_2.png' %}" alt="Suzuki Fumiko" class="owner-fog">
         <div class="col-img__badge">
           <div class="col-img__badge-num">17</div>
           <div class="col-img__badge-label">{% trans "years" %}</div>
@@ -98,6 +98,19 @@
         <img src="{% static 'website/img/massage_4.png' %}" alt="FUMIHEALING: technique">
         <div class="gallery__item__overlay"><span class="gallery__item__label">{% trans "Japanese Method" %}</span></div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── JAPAN IMMERSIVE BANNER ── -->
+<section class="imm-banner">
+  <img class="imm-banner__img" src="{% static 'website/img/japan.png' %}" alt="Japan — the spirit of FUMIHEALING:">
+  <div class="imm-banner__veil">
+    <div class="imm-banner__body">
+      <span class="imm-banner__eyebrow">{% trans "The Essence of Japan" %}</span>
+      <h2 class="imm-banner__title">{% trans "You will feel like you are in Japan" %}</h2>
+      <p class="imm-banner__lead">{% trans "Fumiko brings the spirit of Japan to every session — the stillness, the precision, and the warmth of genuine care." %}</p>
+      <p class="imm-banner__ja">日本の心を感じてください</p>
     </div>
   </div>
 </section>

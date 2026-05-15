@@ -1027,3 +1027,21 @@ msgstr ""
 
 #~ msgid "Japanese, Uzbek, Russian, English"
 #~ msgstr "日本語、ウズベク語、ロシア語、英語"
+
+msgid "The Essence of Japan"
+msgstr "日本の心"
+
+msgid "You will feel like you are in Japan"
+msgstr "まるで日本にいるよう"
+
+msgid "Fumiko brings the spirit of Japan to every session — the stillness, the precision, and the warmth of genuine care."
+msgstr "文子は、すべてのセッションに日本の心を届けます――静けさ、丁寧さ、そして真心のこもった温もり。"
+
+msgid "In harmony with nature"
+msgstr "自然と調和して"
+
+msgid "Feel the nature. Feel yourself."
+msgstr "自然を感じて。自分を感じて。"
+
+msgid "When we return to what is natural — the breath, the flow, the quiet — the body remembers how to heal."
+msgstr "自然なものへと立ち返るとき――呼吸、流れ、静けさの中で――体はいつかの癒しを思い出します。"

@@ -16,7 +16,7 @@
   <div class="container">
     <div class="two-col">
       <div class="col-img col-img--portrait">
-        <img src="{% static 'website/img/owner_image.png' %}" alt="Suzuki Fumiko">
+        <img src="{% static 'website/img/owner_image.png' %}" alt="Suzuki Fumiko" class="owner-fog">
         <div class="col-img__badge">
           <div class="col-img__badge-num">17</div>
           <div class="col-img__badge-label">{% trans "years Japan" %}</div>
@@ -93,6 +93,19 @@
   </div>
 </section>
 
+<!-- ── NATURE IMMERSIVE BANNER ── -->
+<section class="imm-banner">
+  <img class="imm-banner__img" src="{% static 'website/img/nature.png' %}" alt="In harmony with nature">
+  <div class="imm-banner__veil">
+    <div class="imm-banner__body">
+      <span class="imm-banner__eyebrow">{% trans "In harmony with nature" %}</span>
+      <h2 class="imm-banner__title">{% trans "Feel the nature. Feel yourself." %}</h2>
+      <p class="imm-banner__lead">{% trans "When we return to what is natural — the breath, the flow, the quiet — the body remembers how to heal." %}</p>
+      <p class="imm-banner__ja">自然を感じて、自分を感じる</p>
+    </div>
+  </div>
+</section>
+
 <!-- ── MISSION ── -->
 <section class="section">
   <div class="container">
@@ -106,7 +119,7 @@
         <p class="section__lead" style="margin-top:.75rem;">{% trans "I believe Uzbekistan is a country that will develop greatly in the coming years. As the economy grows and society changes, women's ways of working and living will gradually change too. At the same time, fatigue will certainly accumulate in people's hearts and bodies. That is why I believe the 'therapist' will become one of the most needed professions of the coming era." %}</p>
       </div>
       <div class="col-img">
-        <img src="{% static 'website/img/owner_image_2.png' %}" alt="Fumiko with students">
+        <img src="{% static 'website/img/owner_image_2.png' %}" alt="Fumiko with students" class="owner-fog">
       </div>
     </div>
   </div>
